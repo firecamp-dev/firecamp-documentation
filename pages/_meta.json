@@ -1,0 +1,28 @@
+{
+  "index": "Getting Started",
+  "multiprotocols": "Multi Protocol API Platform",
+  "-": {
+    "title": "Platform Guide",
+    "type": "separator"
+  },
+  "environment": "Environment",
+  "authentication": "Authentication",
+  "scripts": "Scripts",
+  "collection": "Collection",
+  "firecamp-agent": "Firecamp Agent",
+  "--": {
+    "title": "API Clients & Playgrounds",
+    "type": "separator"
+  },
+  "rest-apis": "Rest APIs",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  }
+}
