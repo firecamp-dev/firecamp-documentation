@@ -15,6 +15,7 @@
     "type": "separator"
   },
   "rest-apis": "Rest APIs",
+  "graphql": "GraphQL",
   "about": {
     "title": "About",
     "type": "page"
