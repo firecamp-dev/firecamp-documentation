@@ -1,0 +1,85 @@
+
+### Overview
+Variables in Firecamp helps you to reuse the values of request, response or any other payload. You can set variables manually or via scripts in Firecamp.
+Here we'll see how to play with Variable in Scripts.
+
+### Use of variables in Scripts
+Variables are scoped based on where they are defined, In Firecamp variables can be defined (aka scoped) in **Globals**, **Environment** and **Collection**.
+
+#### Globals
+Following are snippets to `Get`, `Set`, `Unset` Globals' variable.
+| Action        | Snippet |   Description |
+| :------------ | :--------- | ----------: |
+| Get variable      |  `fc.globals.get('variable_name')`   | Get value of globals variable |
+| Set variable      |  `fc.globals.set('variable_name', 'value')`   | Set value of globals variable |
+| Unset variable    |  `fc.globals.unset('variable_name')` | Unset globals variable |
+
+**use of globals in scripts**
+```ts
+    // set 'itemId' in globals
+    fc.globals.set('itemId', 14);
+
+    //---
+
+    // get 'itemId' from globals
+    const itemId = fc.globals.get('itemId');
+    console.log(itemId); // log: 14
+
+    // ---
+
+    // unset 'itemId' in Globals
+    fc.globals.unset('itemId');
+```
+
+
+#### Environment
+Following are snippets to `Get`, `Set`, `Unset` Environment variable.
+| Action        | Snippet |   Description |
+| :------------ | :--------- | ----------: |
+| Get variable      |  `fc.environment.get('variable_name')`          | Get value of environment variable |
+| Set variable      |  `fc.environment.set('variable_name', 'value')` | Set value of environment variable |
+| Unset variable    |  `fc.environment.unset('variable_name')`        | Unset environment variable |
+
+**use of environment variable in scripts**
+```ts
+    // set 'itemId' in current environment
+    fc.environment.set('itemId', 14);
+
+    //---
+
+    // get 'itemId' from current environment
+    const itemId = fc.environment.get('itemId');
+    console.log(itemId); // log: 14
+
+    // ---
+
+    // unset 'itemId' in current environment
+    fc.environment.unset('itemId');
+```
+
+#### Collection Variables
+Following are snippets to `Get`, `Set`, `Unset` Collection variable.
+| Action        | Snippet |   Description |
+| :------------ | :--------- | ----------: |
+| Get variable      |  `fc.collection.get('variable_name')`           | Get value of collection variable |
+| Set variable      |  `fc.collection.set('variable_name', 'value')`  | Set value of collection variable |
+| Unset variable    |  `fc.collection.unset('variable_name')`         | Unset collection variable |
+
+**use of collection variable in scripts**
+```ts
+    // set 'itemId' in collection variables
+    fc.collectionVariables.set('itemId', 14);
+
+    //---
+
+    // get 'itemId' from collection variables
+    const itemId = fc.collectionVariables.get('itemId');
+    console.log(itemId); // log: 14
+
+    // ---
+
+    // unset 'itemId' in collection variables
+    fc.collectionVariables.unset('itemId');
+```
+
+### Get Variable
