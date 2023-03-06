@@ -1,0 +1,26 @@
+import { Callout } from 'nextra-theme-docs'
+
+## Overview
+Tests scripts will allow you to write certain test assertions for request. The syntax of test scripts would be like **`fc.tests('test title', testFunction)`**.
+The first argument of tests function will be the **title** of the test and second argument will be the **assertion function**. 
+
+#### use of tests snippets
+
+You can write the test to check the status code 200 like this
+```ts
+fc.test("Status code is 200", ()=> {
+    fc.response.to.have.status(200);
+});
+```
+<Callout type="info">
+  pre built **response** assertions are used from `fc.response.(to|have)`, you can learn more from here.
+</Callout>
+
+```ts
+fc.test("Successful POST request", ()=> {
+    fc.expect(fc.response.code).to.be.oneOf([201, 202]);
+});
+```
+<Callout type="info">
+  **fc.expect** is same as Chai.expect.
+</Callout>
