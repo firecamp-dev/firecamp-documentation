@@ -7,7 +7,8 @@ Here we'll see how to play with Variable in Scripts.
 Variables are scoped based on where they are defined, In Firecamp variables can be defined (aka scoped) in **Globals**, **Environment** and **Collection**.
 
 #### Globals
-Following are snippets to `Get`, `Set`, `Unset` Globals' variable.
+Globals scoped variables are defined in Globals. The script syntax would be like **`fc.globals.*`**
+You can `Get`, `Set`, `Unset` globals variables by using following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.globals.get('variable_name')`   | Get value of globals variable |
@@ -33,7 +34,8 @@ Following are snippets to `Get`, `Set`, `Unset` Globals' variable.
 
 
 #### Environment
-Following are snippets to `Get`, `Set`, `Unset` Environment variable.
+Environment scoped variables are defined in current Environment set in Firecamp. The script syntax of environment would be like **`fc.environment.*`**
+You can `Get`, `Set`, `Unset` environment variables by using following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.environment.get('variable_name')`          | Get value of environment variable |
@@ -58,7 +60,8 @@ Following are snippets to `Get`, `Set`, `Unset` Environment variable.
 ```
 
 #### Collection Variables
-Following are snippets to `Get`, `Set`, `Unset` Collection variable.
+Collection scoped variables are defined in collection. The script syntax of collection variables would be like **`fc.collectionVariables.*`**
+You can `Get`, `Set`, `Unset` collection variables by using following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.collection.get('variable_name')`           | Get value of collection variable |
