@@ -1,14 +1,13 @@
 
 ### Overview
-Variables in Firecamp helps you to reuse the values of request, response or any other payload. You can set variables manually or via scripts in Firecamp.
-Here we'll see how to play with Variable in Scripts.
+Variables in Firecamp help you to reuse the values of requests, responses, or any other payload. You can set variables manually or via scripts in Firecamp. Here we'll see how to play with Variable in Scripts.
 
 ### Use of variables in Scripts
-Variables are scoped based on where they are defined, In Firecamp variables can be defined (aka scoped) in **Globals**, **Environment** and **Collection**.
+Variables are scoped based on where they are defined, In Firecamp variables can be defined (aka scoped) in **Globals**, **Environment**, and **Collection**.
 
 #### Globals
 Globals scoped variables are defined in Globals. The script syntax would be like **`fc.globals.*`**
-You can `Get`, `Set`, `Unset` globals variables by using following snippets.
+You can `Get`, `Set`, `Unset` globals variables by using the following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.globals.get('variable_name')`   | Get value of globals variable |
@@ -35,7 +34,7 @@ You can `Get`, `Set`, `Unset` globals variables by using following snippets.
 
 #### Environment
 Environment scoped variables are defined in current Environment set in Firecamp. The script syntax of environment would be like **`fc.environment.*`**
-You can `Get`, `Set`, `Unset` environment variables by using following snippets.
+You can `Get`, `Set`, `Unset` environment variables by using the following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.environment.get('variable_name')`          | Get value of environment variable |
@@ -61,7 +60,7 @@ You can `Get`, `Set`, `Unset` environment variables by using following snippets.
 
 #### Collection Variables
 Collection scoped variables are defined in collection. The script syntax of collection variables would be like **`fc.collectionVariables.*`**
-You can `Get`, `Set`, `Unset` collection variables by using following snippets.
+You can `Get`, `Set`, `Unset` collection variables by using the following snippets.
 | Action        | Snippet |   Description |
 | :------------ | :--------- | ----------: |
 | Get variable      |  `fc.collectionVariables.get('variable_name')`           | Get value of collection variable |
