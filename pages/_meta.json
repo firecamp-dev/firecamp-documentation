@@ -16,6 +16,13 @@
   },
   "rest-apis": "Rest APIs",
   "graphql": "GraphQL",
+  "websocket": "WebSocket",
+  "socket-io": "Socket.IO",
+  "---": {
+    "title": "Firecamp CLI",
+    "type": "separator"
+  },
+  "cli": "Firecamp CLI",
   "about": {
     "title": "About",
     "type": "page"
