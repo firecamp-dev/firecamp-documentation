@@ -5,11 +5,7 @@
     "title": "Platform Guide",
     "type": "separator"
   },
-  "environment": "Environment",
-  "authentication": "Authentication",
-  "scripts": "Scripts",
-  "collection": "Collection",
-  "firecamp-agent": "Firecamp Agent",
+  "platform": "API Platform",
   "--": {
     "title": "API Clients & Playgrounds",
     "type": "separator"

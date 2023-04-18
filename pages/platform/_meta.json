@@ -1,0 +1,7 @@
+{
+  "authentication": "Authentication",
+  "scripts": "Scripts",
+  "collection": "Collection",
+  "environment": "Environment",
+  "firecamp-agent": "Firecamp Agent"
+}
