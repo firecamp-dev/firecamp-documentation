@@ -10,7 +10,7 @@
     "title": "API Clients & Playgrounds",
     "type": "separator"
   },
-  "rest-apis": "Rest APIs",
+  "rest": "Rest APIs",
   "graphql": "GraphQL",
   "websocket": "WebSocket",
   "socket-io": "Socket.IO",

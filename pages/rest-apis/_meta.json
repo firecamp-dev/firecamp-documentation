@@ -1,7 +1,0 @@
-{
-  "headers-and-params": "Headers & Params",
-  "authentication": "Authentication",
-  "request-body": "Request Body",
-  "pre-request-script": "Pre-Request Script",
-  "tests-script": "Tests Script"
-}
