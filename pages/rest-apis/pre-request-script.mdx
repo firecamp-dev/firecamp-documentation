@@ -9,12 +9,3 @@ const count = fc.globals.get("increment");
 fc.globals.set("increment", increment++);
 ```
 **[Learn more](/scripts/variables) about how to access Globals, Environment and Collection Variables in the pre-request script.**
-
-### Shared pre-request script (reusability)
-The pre-request script can be written at multiple scopes (like request scope, folder scope and collection scope).
-
-1. **Request Scope** - The script written at the request scope will be applicable for that specific request only.
-2. **Folder Scope** - The script written at the folder scope will be applicable for all the child requests of that specific folder. 
-    - In a case where a piece of script is common for all requests within the **folder** then you can write that script at **folder scope** instead of writing for every request.
-3. **Collection Scope** - The script written at the collection scope will be applicable for all the child requests of that specific collection
-    - In a case where a piece of script is common for all requests within the **collection** then you can write that script at **collection scope** instead of writing for every request.
