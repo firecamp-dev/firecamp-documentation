@@ -1,12 +1,13 @@
 # Tests Script
 
 ### Introduction
-The tests script is a javascript script that will get executed just after the request execution has been completed. You can write **tests for better coverage**, also you can write javascript to perform certain operations which are needed to be performed after the response is received.
+The tests script is a javascript script that will get executed just after the request execution has been completed. You can write **tests for better coverage**, also you can write javascript to perform certain operations which are needed to be performed **after** the response is received.
 
 
 ### Examples
 1. [How to write test cases for rest api?](/scripts/tests) Learn more
 ```ts
+// test to assert that the response code is 200 OK.
 fc.test("Status code is 200", ()=> {
     fc.response.to.have.status(200);
 });
