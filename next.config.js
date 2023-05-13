@@ -9,7 +9,8 @@ module.exports = withNextra({
     {
       source: "/",
       destination: "/doc/",
-      basePath: false
+      basePath: false,
+      permanent: true
     }
   ]
 })
