@@ -4,13 +4,5 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-  basePath: '/doc',
-  redirects: () => [
-    {
-      source: "/",
-      destination: "/doc/",
-      basePath: false,
-      permanent: true
-    }
-  ]
+  basePath: '/doc'
 })
