@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firecamp-io/firecamp.git"
+    "url": "git+https://github.com/firecampdev/firecamp.git"
   },
   "author": "Nishchit <dnishchit@gmail.com>",
   "license": "UNLICENSE",
   "bugs": {
-    "url": "https://github.com/firecamp-io/firecamp/issues"
+    "url": "https://github.com/firecampdev/firecamp/issues"
   },
-  "homepage": "https://github.com/firecamp-io/firecamp#readme",
+  "homepage": "https://github.com/firecampdev/firecamp#readme",
   "dependencies": {
     "next": "^13.4.1",
     "nextra": "latest",

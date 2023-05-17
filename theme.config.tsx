@@ -4,12 +4,12 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>Firecamp</span>,
   project: {
-    link: 'https://github.com/firecamp-io/firecamp',
+    link: 'https://github.com/firecampdev/firecamp',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/invite/8hRaqhK',
   },
-  docsRepositoryBase: 'https://github.com/firecamp-io/firecamp',
+  docsRepositoryBase: 'https://github.com/firecampdev/firecamp',
   footer: {
     text: 'Firecamp Inc',
   },
