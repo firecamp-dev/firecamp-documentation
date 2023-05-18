@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com/invite/8hRaqhK',
   },
-  docsRepositoryBase: 'https://github.com/firecampdev/firecamp',
+  docsRepositoryBase: 'https://github.com/firecampdev/firecamp-documentation',
   footer: {
     text: 'Firecamp Inc',
   },
