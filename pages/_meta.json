@@ -7,7 +7,7 @@
   },
   "platform": "API Platform",
   "--": {
-    "title": "API Clients & Playgrounds",
+    "title": "API Playgrounds",
     "type": "separator"
   },
   "rest": "Rest APIs",
