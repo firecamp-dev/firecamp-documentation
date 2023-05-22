@@ -37,11 +37,31 @@ const config: DocsThemeConfig = {
       <>
         <link rel="shortcut icon" href="/docs/favicon.png" />
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.title || 'Firecamp'} />
+        <meta property="og:title" content={frontMatter.title || 'The multi-protocol API Platform'} />
         <meta
           property="og:description"
-          content={frontMatter.description || 'The multi-protocol API Platform'}
+          content={frontMatter.description || 'Firecamp - Test Rest, GraphQL, Websocket and SocketIO APIs in minutes'}
         />
+
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Multi-protocol API development platform | Firecamp</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta name="description" content="Firecamp is an open source API platform for testing and developing Rest, GraphQL, WebSocket, SocketIO, and other APIs. It's a secure and cost-effective Postman alternative for teams" />
+        <meta property="og:type" content="website" />
+
+        <meta property="og:site_name" content="Firecamp" />
+        {/* <meta property="og:description" content="Firecamp is an open-source API platform for testing and developing Rest, GraphQL, WebSocket, SocketIO, and other APIs. It's a secure and cost-effective Postman alternative for teams." /> */}
+        <meta property="og:image" content="https://www.firecamp.io/assets/images/firecampOG.png" />
+        <meta property="og:image:alt" content="" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Firecamp - Test Rest, GraphQL, Websocket and SocketIO APIs in minutes" />
+        <meta name="twitter:description" content="Firecamp is an open-source API platform for testing and developing Rest, GraphQL, WebSocket, SocketIO, and other APIs. It's a secure and cost-effective Postman alternative for teams." />
+        <meta name="twitter:site" content="https://www.firecamp.io/" />
+        <meta name="twitter:image" content="https://www.firecamp.io/assets/images/firecampOG.png" />
+        <meta name="twitter:creator" content="@firecampdev" />
       </>
     )
   }
