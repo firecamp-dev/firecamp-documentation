@@ -3,15 +3,14 @@ import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
+  faviconGlyph: "Fc",
   banner: {
     key: "firecamp-web",
     text: "Firecamp web is launched"
   },
   primaryHue: 28,
   logo: () => (
-    <span>
-      <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
-    </span>
+    <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
   ),
   project: {
     link: 'https://github.com/firecampdev/firecamp',
@@ -36,6 +35,7 @@ const config: DocsThemeConfig = {
 
     return (
       <>
+        <link rel="shortcut icon" href="/docs/favicon.png" />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontMatter.title || 'Firecamp'} />
         <meta
