@@ -4,10 +4,10 @@ import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   faviconGlyph: "Fc",
-  banner: {
-    key: "firecamp-web",
-    text: "Firecamp web is launched"
-  },
+  // banner: {
+  //   key: "firecamp-web",
+  //   text: "Firecamp web is launched"
+  // },
   primaryHue: 28,
   logo: () => (
     <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
