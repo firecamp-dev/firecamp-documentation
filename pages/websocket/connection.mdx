@@ -1,0 +1,18 @@
+import { Callout } from 'nextra-theme-docs'
+
+## Connection
+
+The Connection section in the WebSocket Playground allows you to establish a WebSocket connection by configuring the following components:
+
+### 1. WebSocket URL/Endpoint
+Enter the WebSocket URL or endpoint of the API you want to connect to. Make sure the URL is accurate and includes the appropriate protocol prefix, such as ws:// for unsecured connections or wss:// for secured connections.
+
+### 2. Headers/Params
+If required by your WebSocket API, you can add custom headers or parameters to your connection request. These headers and parameters can include authentication tokens, authorization details, or any other additional information necessary for establishing the connection. Enter the headers or parameters in the designated input field, ensuring the correct format and syntax.
+
+<Callout type="info">
+    Headers are desktop specific feature, and currently under development
+</Callout>
+
+### 3. Connect Button
+To establish the WebSocket connection, click on the "Connect" button. Firecamp will initiate the connection process using the provided WebSocket URL and headers/parameters. Once connected, you can begin sending and receiving WebSocket messages in real-time.
