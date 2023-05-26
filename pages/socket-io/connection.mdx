@@ -1,0 +1,23 @@
+import { Callout } from 'nextra-theme-docs'
+
+## Connection
+The Connection panel in the SocketIO Playground allows you to configure and establish a successful connection to your Socket.IO server. It provides various options to customize the connection settings and ensure seamless communication between the client and server.
+
+Connection has following components which are required to establish the successful connection.
+
+#### 1. SocketIO Url/Endpoint
+Enter the URL or endpoint of your Socket.IO server in the designated field. This specifies the destination to establish the connection.
+
+#### 2. Headers and Params
+Customize the request headers and parameters to include any necessary information for authentication or additional server requirements. This allows you to pass relevant data to the server during the connection process.
+
+#### 3. Auth
+If your Socket.IO server requires authentication, you can provide the necessary authentication credentials or tokens in the Authentication section of the Connection panel. This ensures secure and authorized access to your Socket.IO resources.
+<Callout>
+    The Auth option is compatible with the SocketIO V4 server as It was introduced lately in SocketIO V4.  Ensure your server supports Socket.IO 4.x.x to utilize this authentication feature.
+</Callout>
+
+#### 4. Configuration
+The Configuration options allow you to fine-tune the connection settings based on your specific requirements. You can adjust parameters such as the transport type, timeout duration, and reconnection behavior to optimize the connection performance.
+
+By utilizing the Connection panel in the SocketIO Playground, you can easily set up and configure the connection to your Socket.IO server, ensuring a smooth and reliable communication experience.
