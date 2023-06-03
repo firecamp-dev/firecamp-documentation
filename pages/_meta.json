@@ -15,7 +15,7 @@
   "websocket": "WebSocket",
   "socket-io": "Socket.IO",
   "---": {
-    "title": "Firecamp CLI",
+    "title": "CLI",
     "type": "separator"
   },
   "cli": "Firecamp CLI",
