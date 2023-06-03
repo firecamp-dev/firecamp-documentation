@@ -1,0 +1,34 @@
+import { Callout } from 'nextra-theme-docs'
+
+## Request Body
+
+The request body allows you to send various payloads along with your request. In the REST API Playground, you can utilize different body types to structure and format your data. Here are the available body types:
+
+<Callout type="info">
+  When making a request with a body in the REST API Playground, you can specify the custom content type from the Header Panel if it's required for your server configuration.
+</Callout>
+
+
+### 1. Multipart Form Data
+This body type is commonly used when submitting forms or uploading files through an API. It allows you to include multiple fields with corresponding values within the request body.
+
+### 2. Url Encoded Form
+Url Encoded Form is used to send data in key-value pairs, similar to how form data is sent in HTML forms. The data is encoded in the URL format.
+
+### 3. GraphQL Query
+If you're working with a GraphQL API, you can use the GraphQL Query body type to write and execute GraphQL queries. It allows you to specify the query, variables, and operation name.
+
+### 4. JSON
+JSON (JavaScript Object Notation) is a widely used data interchange format. With the JSON body type, you can send structured data in JSON format as part of your API request.
+
+### 5. XML
+XML (eXtensible Markup Language) is another data format commonly used in web services. The XML body type allows you to send XML-formatted data as the request payload.
+
+### 6. Text
+The Text body type is used to send plain text content in the request body. It can be useful when working with APIs that expect text-based data.
+
+### 7. Binary
+The Binary body type is used to send binary data in the request body. It is commonly used for file uploads or when working with APIs that require binary content.
+
+---
+By selecting the appropriate body type in the REST API Playground, you can structure and send your data in the desired format, ensuring compatibility with your API endpoints.
