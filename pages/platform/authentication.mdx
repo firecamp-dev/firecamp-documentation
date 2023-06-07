@@ -1,1 +1,57 @@
-# Authentication
+import { Callout } from 'nextra-theme-docs'
+
+## Authentication
+
+
+The Authentication section allows you to configure and authenticate your requests in the **REST API Playground**. It provides options to include authentication tokens, API keys, or any other required credentials to access protected resources.
+
+<Callout type="info">
+  The authentication feature is currently accessible only in the **Rest Playground**. However, we are actively working on expanding its support to include the **GraphQL Playground** as well.
+</Callout>
+
+
+### Bearer
+Bearer Authentication is a token-based authentication method where the client includes a bearer token in the request header. The server validates the token to authenticate the client and authorize access to protected resources.
+
+1. Obtain a Bearer token from the API provider.
+2. In the Authentication section of the playground, select **Bearer Token** as the authentication method.
+3. Enter the Bearer token in the provided field.
+
+### Basic
+Basic Authentication is a simple authentication method that requires the inclusion of a username and password in the request header. It provides a basic level of security by encoding the credentials in Base64 format. Firecamp handles the Basic authentication process automatically based on the provided credentials.
+1. Obtain the username and password from the API provider.
+2. In the Authentication section of playground, select **Basic** as the authentication method.
+3. Enter the username and password in the provided fields.
+
+### API Key
+API Key Authentication involves including an API key in the request header. It provides a simple way to authenticate clients and control access to API resources.
+
+1. Obtain an API key from the API provider.
+2. In the Authentication section of the playground, select **API Key** as the authentication method.
+3. Enter the API key in the provided field.
+
+<Callout type="info">
+  API Key method is under development. It will be available very soon.
+</Callout>
+
+### Digest
+Digest Authentication is a challenge-response authentication mechanism where the client sends a request containing the authentication details, and the server verifies the credentials based on a series of cryptographic challenges. Firecamp handles this process automatically once the Digest Authentication credentials are provided.
+1. Obtain the necessary credentials (username, password, realm, nonce, etc.) from the API provider.
+2. In the Authentication section of the playground, select **Digest** as the authentication method.
+3. Enter the username, password, realm, nonce, and any other required fields in the provided form.
+
+### OAuth1
+OAuth1 is an authentication protocol that involves a series of request and response exchanges to obtain access to protected resources. Firecamp handles the OAuth 1 authentication process automatically based on the provided credentials.
+
+1. Obtain the necessary OAuth 1 credentials (consumer key, consumer secret, access token, access token secret, etc.) from the API provider.
+2. In the Authentication section of the REST API Playground, select **OAuth1** as the authentication method.
+3. Enter the OAuth 1 credentials in the provided fields, including the consumer key, consumer secret, access token, and access token secret.
+4. Optionally, you may need to provide additional details such as the request token URL, authorize URL, and access token URL, depending on the specific OAuth 1 implementation.
+
+### AWS
+AWS authentication uses Access Key ID and Secret Access Key to sign API requests using AWS Signature Version 4. Firecamp handles the AWS authentication process automatically based on the provided credentials.
+
+1. Obtain the necessary AWS credentials (Access Key ID and Secret Access Key) from your AWS account.
+2. In the Authentication section of the playground, select **AWS** as the authentication method.
+3. Enter your Access Key ID and Secret Access Key in the provided fields.
+4. Optionally, you may need to provide additional details such as the AWS Region and Service Name, depending on the specific AWS API you are accessing.
