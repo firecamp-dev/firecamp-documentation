@@ -36,6 +36,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <link rel="shortcut icon" href="/docs/favicon.png" />
+        <link rel="canonical" href={url} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={frontMatter.title || 'The multi-protocol API Platform'} />
         <meta
