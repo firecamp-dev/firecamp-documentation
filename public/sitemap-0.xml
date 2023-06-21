@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://firecamp.io/docs</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/about</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/cli/getting-started</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/graphql/collection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/graphql/explorer</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/graphql/headers</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/graphql/introduction</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/graphql/playground</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/multiprotocols</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/authentication</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/collection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/environment</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/firecamp-agent</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/scripts</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/scripts/request</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/scripts/response</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/scripts/tests</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/platform/scripts/variables</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/rest/authentication</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/rest/headers-and-params</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/rest/pre-request-script</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/rest/request-body</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/rest/tests-script</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/socket-io/connection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/socket-io/emitter-collection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/socket-io/event-logs</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/socket-io/getting-started</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/socket-io/introduction</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/websocket/connection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/websocket/event-logs</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/websocket/getting-started</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/websocket/introduction</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://firecamp.io/docs/websocket/message-collection</loc><lastmod>2023-06-21T08:49:32.016Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

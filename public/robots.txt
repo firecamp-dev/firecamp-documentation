@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://firecamp.io/docs
+
+# Sitemaps
+Sitemap: https://firecamp.io/docs/sitemap.xml
