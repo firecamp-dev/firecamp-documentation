@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/firecampdev/firecamp#readme",
   "dependencies": {
+    "@next/env": "^13.4.6",
     "next": "^13.4.1",
     "next-sitemap": "^4.1.3",
     "nextra": "latest",
