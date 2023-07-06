@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
   //   key: "firecamp-web",
   //   text: "Firecamp web is launched"
   // },
-  primaryHue: 28,
+  primaryHue: { dark: 196, light: 220 },
   logo: () => (
     <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
   ),
