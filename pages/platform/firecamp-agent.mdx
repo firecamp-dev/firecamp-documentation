@@ -1,0 +1,23 @@
+## Firecamp Agents
+
+Firecamp Agents provide different execution environments for your API requests within Firecamp. There are three types of Firecamp Agents:
+
+1. Browser Agent: When using the Browser Agent, requests are executed from the browser environment. However, there may be limitations due to CORS errors.
+
+2. Cloud Agent: The Cloud Agent allows requests to be executed from Firecamp's secure cloud infrastructure. However, keep in mind that there are limitations, such as the inability to connect to your localhost server from the cloud server.
+
+3. Extension Agent: By installing the Firecamp extension, you can execute requests from the browser's extension. This helps you avoid CORS issues and provides a seamless experience.
+
+Each Firecamp Agent type offers unique benefits and considerations, allowing you to choose the most suitable environment for your API testing and development needs. In the following sections.
+
+
+### 
+
+```
+| Agent             | Requesr Execution                          | Limitations                         | Solution                                              |
+|---                |---                                         |---                                  |---                                                    |
+| Browser Agent     | From Browser environment                   | May encounter CORS errors           | allow https://firecamp.dev doamin in your CORS policy |
+| Cloud Agent       | Firecamp's secure cloud                    | Cannot connect to localhost servers | user browser or extension agent for localhost server  |
+| Extension Agent   | Browser's extension environment            | Need to install extension           | -                                                     |
+```
+
