@@ -1,7 +1,19 @@
 {
   "index": "Getting Started",
+  "-": {
+    "title": "",
+    "type": "separator"
+  },
+  "1-": {
+    "title": "Platform Guide",
+    "type": "separator"
+  },
   "platform": "API Platform",
   "collaboration": "Team Collaboration",
+  "--": {
+    "title": "",
+    "type": "separator"
+  },
   "---": {
     "title": "API Playgrounds",
     "type": "separator"
@@ -11,7 +23,7 @@
   "websocket": "WebSocket",
   "socket-io": "Socket.IO",
   "----": {
-    "title": "CLI",
+    "title": "",
     "type": "separator"
   },
   "cli": "Firecamp CLI",
