@@ -1,12 +1,8 @@
 {
   "index": "Getting Started",
-  "multiprotocols": "Multi Protocol API Platform",
-  "-": {
-    "title": "Platform Guide",
-    "type": "separator"
-  },
   "platform": "API Platform",
-  "--": {
+  "collaboration": "Team Collaboration",
+  "---": {
     "title": "API Playgrounds",
     "type": "separator"
   },
@@ -14,7 +10,7 @@
   "graphql": "GraphQL",
   "websocket": "WebSocket",
   "socket-io": "Socket.IO",
-  "---": {
+  "----": {
     "title": "CLI",
     "type": "separator"
   },
