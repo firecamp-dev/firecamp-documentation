@@ -18,7 +18,10 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com/invite/8hRaqhK',
   },
-  docsRepositoryBase: 'https://github.com/firecampdev/firecamp-documentation',
+  docsRepositoryBase: 'https://github.com/firecampdev/firecamp-documentation/tree/main',
+  sidebar: {
+    defaultMenuCollapseLevel: 1
+  },
   footer: {
     text: 'Firecamp Inc',
   },

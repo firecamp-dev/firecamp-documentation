@@ -9,6 +9,7 @@
     "type": "separator"
   },
   "platform": "API Platform",
+  "api-collection": "API Collection",
   "collaboration": "Team Collaboration",
   "--": {
     "title": "",
