@@ -3,7 +3,7 @@ import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
-  faviconGlyph: "Fc",
+  // faviconGlyph: "Fc",
   // banner: {
   //   key: "firecamp-web",
   //   text: "Firecamp web is launched"

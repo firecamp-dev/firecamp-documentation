@@ -27,14 +27,16 @@
     "type": "separator"
   },
   "cli": "Firecamp CLI",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
     "title": "Twitter ↗",
     "type": "page",
     "href": "https://twitter.com/firecampdev",
+    "newWindow": true
+  },
+  "launch-firecamp": {
+    "title": "Launch Firecamp",
+    "type": "page",
+    "href": "https://firecamp.dev",
     "newWindow": true
   }
 }
