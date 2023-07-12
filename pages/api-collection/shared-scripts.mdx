@@ -1,0 +1,42 @@
+import { Callout } from 'nextra-theme-docs'
+
+# Shared Script
+
+## Overview
+In Firecamp, you can define shared scripts at the collection and folder levels for reusable-logic purpose. These shared scripts include pre-request scripts and test scripts, which allow you to customize the behavior of your API requests and perform validations on the responses.
+
+## Collection Scripts
+Collection Scoped scripts are scripts defined at the collection level. They are accessible by all requests within the collection. Any script defined at this level will be inherited by all the requests within the collection, allowing you to centralize your logic and avoid redundant script definitions.
+
+<Callout type="info">
+    Shared scripts can be defined at the collection and folder levels. Collection-level scripts are inherited by all children requests at any level within the collection.
+</Callout>
+
+## Folder Scripts
+Folder Scoped scripts are scripts defined within a specific folder in your collection.
+<Callout type="info">
+    Folder-level scripts, on the other hand, are inherited only by the children requests at the immediate level within that specific folder.
+</Callout>
+
+## Execution Flow of Shared Scripts
+The execution flow of shared scripts follows a specific order:
+
+1. **Collection Pre-request:** The pre-request script defined at the collection level is executed before any other script.
+2. **Folder Pre-request:** If a request is within a folder, the folder pre-request script is executed next.
+3. **Request Pre-request:** The pre-request script defined for the specific request is executed.
+4. **Request Tests:** The test script for the specific request is executed.
+5. **Folder Tests:** If a request is within a folder, the folder test script is executed.
+6. **Collection Tests:** The test script defined at the collection level is executed last.
+
+```
+Collection  (pre-request) 
+            -> Folder  (pre-request)
+                        -> Request  (pre-request) 
+                        -> Request  (Tests)
+                                    -> Folder  (Tests) -> Collection  (Tests)
+```
+
+This execution flow ensures that the shared scripts are executed in the correct order, providing you with the flexibility to customize your requests and perform necessary validations and assertions.
+
+---
+By utilizing Collection Scoped and Folder Scoped scripts, you can streamline your API workflows, reduce duplication of code, and ensure consistency across your requests.
