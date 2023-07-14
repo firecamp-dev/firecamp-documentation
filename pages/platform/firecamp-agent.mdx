@@ -1,3 +1,5 @@
+import { Callout } from 'nextra-theme-docs'
+
 ## Firecamp Agents
 
 Firecamp Agents provide different execution environments for your API requests within Firecamp. There are three types of Firecamp Agents:
@@ -22,7 +24,17 @@ The below table provides an overview of the different Firecamp Agents, including
 
 | Agent                  | Request Execution                          | Limitation                          | Solution                                              |
 |:---                    |:---                                        |:---                                 |:---                                                   |
-| **Browser**            | from Browser environment                   | May encounter CORS errors           | allow https://firecamp.dev domain in your CORS policy |
+| **Browser**            | from Browser environment                   | May encounter CORS errors           | 1. allow https://firecamp.dev domain in your CORS policy or <br/> 2. use [CORS Extension](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino) to bypass CORS. **please read below note on CORS** |
 | **Cloud**              | from Firecamp's secure cloud               | Cannot connect to localhost servers | use browser or extension agent for localhost server   |
 | **Browse Extension**   | from Browser's extension environment       | Need to install extension           | works fine with browser extension                     |
 
+<Callout>
+    Note: 
+    Firecamp is actively working on developing a Chrome Extension Agent that will address CORS and other browser limitations to provide a seamless testing experience directly within the Firecamp platform. This agent will help you overcome the CORS restrictions that may occur while making API requests.
+
+    In the meantime, if you encounter CORS-related issues, we recommend using third-party Chrome extensions like [**CORS Unblock**](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino). These extensions can temporarily bypass CORS restrictions in your browser, allowing you to test your APIs without being hindered by CORS errors.
+
+    Please note that third-party extensions are developed and maintained by external providers. Exercise caution when installing and using any extension, and ensure that it aligns with your security and privacy requirements.
+
+    [Stay tuned for updates on the release of the Firecamp Chrome Extension Agent](https://discord.com/invite/8hRaqhK), which will provide a native solution for handling CORS and other browser limitations, enhancing your API testing experience within Firecamp.
+</Callout>
