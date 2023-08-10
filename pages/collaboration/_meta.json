@@ -1,8 +1,7 @@
 {
   "getting-started": "Getting Started",
-  "creating-organization": "Organization overview",
-  "creating-workspace": "Workspace overview",
-  "inviting-members": "Manging members",
-  "accepting-invitation": "Accepting Invitation",
-  "switching-workspace": "Switching Workspace"
+  "creating-organization": "Organization Overview",
+  "creating-workspace": "Workspace Overview",
+  "inviting-members": "Invite Members",
+  "members": "Members"
 }
