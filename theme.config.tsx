@@ -1,6 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const config: DocsThemeConfig = {
   // faviconGlyph: "Fc",
@@ -10,7 +11,9 @@ const config: DocsThemeConfig = {
   // },
   primaryHue: { dark: 196, light: 220 },
   logo: () => (
-    <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
+    <Link href="/">
+      <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
+    </Link>
   ),
   project: {
     link: 'https://github.com/firecampdev/firecamp',
