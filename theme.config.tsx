@@ -9,6 +9,7 @@ const config: DocsThemeConfig = {
   //   text: "Firecamp web is launched"
   // },
   primaryHue: { dark: 196, light: 220 },
+  logoLink: "https://firecamp.io/",
   logo: () => (
     <img src='/docs/fc-full-logo.svg' style={{ "height": "30px" }} />
   ),
